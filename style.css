@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@font-face {
+    font-family: personalizada;
+    src: url(font/Faster\ Stroker.otf);
+    height: 900px;
+}
+
+:root {
+    --cor1:#a4189d;
+    --cor2:#91128c;
+    --cor3:#7e0c7b;
+    --cor4:#6b0669;
+    --cor5:#580058;
+
+    --fonte-padrao:arial;
+    --fonte-personalizada: "personalizada";
+}
+
+h1 {
+    font-family: var(--fonte-personalizada)
+}
+
+
